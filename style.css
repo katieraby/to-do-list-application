@@ -1,10 +1,11 @@
 body {
+  background-color: #e8e9f3;
 }
 
 h1 {
   font-family: "Rock Salt", cursive;
-  font-size: 50px;
-  color: #cc70ff;
+  font-size: 60px;
+  color: #9067c6;
   text-align: center;
   margin-bottom: 10px;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
@@ -26,8 +27,8 @@ h2 {
   border-top-right-radius: 22px;
   background: linear-gradient(
       147deg,
-      rgba(204, 112, 255, 0.7954220314735336) 23%,
-      rgba(255, 0, 129, 0.5026737967914439) 82%
+      rgba(204, 112, 255, 0.7954220314735336) 20%,
+      rgba(255, 0, 129, 0.5026737967914439) 80%
     ),
     url("https://static.vecteezy.com/system/resources/previews/000/101/253/non_2x/vector-free-abstract-background-1.jpg");
   background-size: cover;
