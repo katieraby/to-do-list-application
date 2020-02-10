@@ -1,6 +1,9 @@
 const listItems = [...document.getElementsByClassName("list-item")];
 const myItemList = document.getElementsByClassName("list")[0];
 const inputBox = document.getElementsByClassName("input-box")[0];
+const checkbox = document.getElementsByClassName("checkbox")[0];
+
+console.dir(checkbox);
 
 function markedAsComplete(event) {
   event.srcElement.classList.toggle("strikethrough");
@@ -10,8 +13,14 @@ function markedAsComplete(event) {
 function addNewItem(event) {
   if (event.which === 13) {
     const newLi = document.createElement("li");
+    const newCheckbox = document.createElement("input");
+    newCheckbox.type = "checkbox";
+    newCheckbox.classList.add("checkbox");
     newLi.classList.add("list-item");
     newLi.innerHTML = inputBox.value;
+    inputBox.value = "";
+    newLi.appendChild(newCheckbox);
+    newLi.addEventListener("click", markedAsComplete);
     myItemList.appendChild(newLi);
   }
 }
