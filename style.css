@@ -27,10 +27,10 @@ h2 {
   border-top-right-radius: 22px;
   background: linear-gradient(
       147deg,
-      rgba(204, 112, 255, 0.7954220314735336) 20%,
-      rgba(255, 0, 129, 0.5026737967914439) 80%
+      rgba(204, 112, 255, 0.7954220314735336) 5%,
+      rgba(255, 0, 129, 0.5026737967914439) 50%
     ),
-    url("https://static.vecteezy.com/system/resources/previews/000/101/253/non_2x/vector-free-abstract-background-1.jpg");
+    url("./assets/img/free-pink-abstract-vector-banners-01.png");
   background-size: cover;
   height: 130px;
   width: 60vw;
@@ -59,7 +59,7 @@ ul {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 20px;
-  font-family: Helvetica, arial, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   list-style: none;
   border-bottom: 2px solid #e7e7e7;
 }
@@ -74,7 +74,7 @@ ul {
   margin-bottom: 20px;
   padding-left: 10px;
   text-align: left;
-  width: 88%;
+  width: 85%;
   height: 30px;
 }
 
