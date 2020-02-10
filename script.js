@@ -1,12 +1,16 @@
 const listItems = [...document.getElementsByClassName("list-item")];
-const firstItem = listItems[0];
+const inputBox = document.getElementByClassName("input-box");
 
-function strike(event) {
-  firstItem.classList.toggle("strikethrough");
-}
-// strike through the text
+console.log(inputBox);
+console.dir(inputBox);
 
-firstItem.addEventListener("click", strike);
-// what do you want to interact with ?
+// what do you want to interact with ? my input box
 // how ?
 // what do you want to do as a result?
+
+function completed(event) {
+  event.srcElement.classList.toggle("strikethrough");
+  event.srcElement.children[0].toggleAttribute("checked");
+}
+
+listItems.forEach(item => item.addEventListener("click", completed));
