@@ -1,8 +1,8 @@
 const listItems = [...document.getElementsByClassName("list-item")];
-const inputBox = document.getElementByClassName("input-box");
+// const inputBox = document.getElementByClassName("input-box");
 
-console.log(inputBox);
-console.dir(inputBox);
+// console.log(inputBox);
+// console.dir(inputBox);
 
 // what do you want to interact with ? my input box
 // how ?
